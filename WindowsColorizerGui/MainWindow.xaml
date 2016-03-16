@@ -1,0 +1,14 @@
+﻿<Window x:Class="WindowsColorizerGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsColorizerGui"
+        mc:Ignorable="d"
+        Title="Windows Colorizer" Height="350" Width="525"
+         MouseMove="win1_MouseMove_1">
+    <Canvas x:Name="canv1" Width="400" Height="400">
+        <Label Content="{Binding RGBInfo}" HorizontalAlignment="Center" />
+        <Button x:Name="button" Content=" muhterial ui" Canvas.Left="102" Width="161" Height="36"/>
+    </Canvas>
+</Window>
